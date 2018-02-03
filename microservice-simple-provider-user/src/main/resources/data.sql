@@ -1,0 +1,4 @@
+INSERT INTO USER VALUES (1, 'user1', '张三丰', 20, 100.00);
+INSERT INTO USER VALUES (2, 'user2', '张四丰', 20, 100.00);
+INSERT INTO USER VALUES (3, 'user3', '张五丰', 20, 100.00);
+INSERT INTO USER VALUES (4, 'user4', '张六丰', 20, 100.00);
