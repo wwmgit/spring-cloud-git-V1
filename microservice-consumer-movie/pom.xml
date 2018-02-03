@@ -5,7 +5,7 @@
 
 	<artifactId>microservice-consumer-movie</artifactId>
 	<packaging>jar</packaging>
-	
+
 
 	<name>microservice-simple-consumer-movie</name>
 	<description>Demo project for Spring Boot</description>
