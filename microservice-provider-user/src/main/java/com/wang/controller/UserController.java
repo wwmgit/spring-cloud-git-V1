@@ -29,6 +29,12 @@ public class UserController {
     @Autowired
     private DiscoveryClient discoveryClient;
 
+
+    @GetMapping("/simple/{id}")
+    public User findById(@PathVariable("id") Long id){
+        return userRepository.findOne(id);
+    }
+
     /**
      * 使用EurekaClient，获得注册到eureka上的微服务的URL
      *
@@ -76,10 +82,6 @@ public class UserController {
         return localServiceInstance;
     }
 
-    @GetMapping("/simple/{id}")
-    public User findById(@PathVariable("id") Long id){
-        return userRepository.findOne(id);
-    }
 
 
 }

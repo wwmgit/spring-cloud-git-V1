@@ -12,6 +12,11 @@
 		<module>microservice-consumer-movie</module>
 		<module>microservice-provider-user</module>
 		<module>microservice-discovery-eureka</module>
+		<module>microservice-consumer-movie-ribbon</module>
+		<module>microservice-provider-user-two</module>
+		<module>microservice-provider-user-three</module>
+		<module>microservice-provider-user-four</module>
+		<module>microservice-consumer-movie-ribbon-properties-customizing</module>
 	</modules>
 	
 	<properties>
