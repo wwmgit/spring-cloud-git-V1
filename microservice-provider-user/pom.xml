@@ -42,11 +42,14 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!--需要将服务设置为eureka客户端，也即是将服务注册到eureka服务端，需要导入下面的包-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 
+
+		<!--对eureka客户端进行健康监测需要导入下面的包-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>

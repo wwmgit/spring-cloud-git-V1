@@ -23,16 +23,20 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+		</dependency>
+
+		<!--设置为eureka服务端，需要导入下面的包-->
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
+
+		<!--登录eureka网页需要进行身份认证，即：HTTP basic authentication，需要导入下面的包-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
 	</dependencies>
 
